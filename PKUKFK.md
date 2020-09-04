@@ -122,6 +122,7 @@ ALTER TABLE CHILD ADD CONSTRAINT FK이름 FOREIGN KEY (FK 컬럼) REFERENCES PAR
 
 정규화를 수행한다 => 입력/수정/삭제 이상을 제거한다.
 
+1차 정규형 - 모든 속성은 반드시 하나의 값을 가져야 한다. 즉, 반복 형태가 있어서는 안된다. 4 - 각 속성의 모든 값은 동일한 형식이어야 한다. - 각 속성들은 유일한 이름을 가져야 한다. - 레코드들은 서로 간에 식별 가능해야 한다. * 2차 정규형 - 식별자가 아닌 모든 속성들은 식별자 전체 속성에 완전 종속되어야 한다. - 이것을 물리 데이터 모델의 테이블로 말하면 기본키가 아닌 모든 칼럼들이 기본키에 종속적이어야 2차 정규형을 만족할 수 있다는 것이다 * 3차 정규형 - 2차 정규형을 만족하고 식별자를 제외한 나머지 속성들 간의 종속이 존재하면 안된다. - 이것이 3차 정규형을 만족하는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTAyNTM3OTAsMTA4OTg1ODY5MF19
+eyJoaXN0b3J5IjpbMTMyMjM4MDAwMiwxMDg5ODU4NjkwXX0=
 -->
