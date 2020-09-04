@@ -114,7 +114,8 @@ ALTER TABLE CHILD ADD CONSTRAINT FK이름 FOREIGN KEY (FK 컬럼) REFERENCES PAR
 
 ## 정규화
 정규화를 왜 하지?
-> 데이터에 대한 중복성 제거, 데이터가 관ㅅ미사별로 
+> 데이터에 대한 중복성 제거, 데이터가 관심사별로 처리되는 경우가 많기에 성능이 향상되는 특징을 가지고 있다.
+> 엔터티가 계속 발생, SQL
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk3MTYwMzgsMTA4OTg1ODY5MF19
+eyJoaXN0b3J5IjpbMTkxMDM0Mjg4OCwxMDg5ODU4NjkwXX0=
 -->
