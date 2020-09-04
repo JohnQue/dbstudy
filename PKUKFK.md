@@ -134,7 +134,6 @@ ALTER TABLE CHILD ADD CONSTRAINT FK이름 FOREIGN KEY (FK 컬럼) REFERENCES PAR
 - 2차 정규형을 만족하고 식별자를 제외한 나머지 속성들 간의 종속이 존재하면 안된다. 
 - 이것이 3차 정규형을 만족하는 것이다.
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEwNzYwOTAsMTA4OTg1ODY5MF19
+eyJoaXN0b3J5IjpbMTg0NjEzMDkwNCwxMDg5ODU4NjkwXX0=
 -->
