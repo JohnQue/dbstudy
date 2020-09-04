@@ -120,7 +120,8 @@ ALTER TABLE CHILD ADD CONSTRAINT FK이름 FOREIGN KEY (FK 컬럼) REFERENCES PAR
 데이터처리의 성능은 DB에서 데이터를 처리할때 R과 CUD로 나뉜다.
 데이터 모델 구성하는 방식에 따라 둘이 Trade-off되곤 한다.
 
-정규화를 수행한ㄷ
+정규화를 수행한다 => 입력/수정/삭제 이상을 제거한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDY0NDgwNSwxMDg5ODU4NjkwXX0=
+eyJoaXN0b3J5IjpbLTEzOTAyNTM3OTAsMTA4OTg1ODY5MF19
 -->
