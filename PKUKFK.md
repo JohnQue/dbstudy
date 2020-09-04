@@ -108,6 +108,13 @@ ALTER TABLE CHILD ADD CONSTRAINT FK이름 FOREIGN KEY (FK 컬럼) REFERENCES PAR
 
 ### 실무에서는 외래키 사용을 매우 지양하는 편 이걸 사용하면 하나의 부모 테이블을 참조하는 자식 테이블이 너무 많음, 테이블 락이 걸릴 수도 있고, DML 과부하 가능성
 
+## 식별자와 비식별자 관계 비교
+
+![그림19](http://www.dbguide.net/publishing/img/knowledge/SQL_070.jpg)
+
+## 정규화
+정규화를 왜 하지?
+> 데이터에 대한 중복성 제거, 데이터가 관ㅅ미사별로 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTg1ODY5MF19
+eyJoaXN0b3J5IjpbLTExNDk3MTYwMzgsMTA4OTg1ODY5MF19
 -->
