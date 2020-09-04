@@ -115,7 +115,12 @@ ALTER TABLE CHILD ADD CONSTRAINT FK이름 FOREIGN KEY (FK 컬럼) REFERENCES PAR
 ## 정규화
 정규화를 왜 하지?
 > 데이터에 대한 중복성 제거, 데이터가 관심사별로 처리되는 경우가 많기에 성능이 향상되는 특징을 가지고 있다.
-> 엔터티가 계속 발생, SQL
+> 엔터티가 계속 발생, SQL문장 조인 다수 발생 => 성능 저하가 일어나므로 반정규화할 필요성도 있음
+
+데이터처리의 성능은 DB에서 데이터를 처리할때 R과 CUD로 나뉜다.
+데이터 모델 구성하는 방식에 따라 둘이 Trade-off되곤 한다.
+
+정규화를 수행한ㄷ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDM0Mjg4OCwxMDg5ODU4NjkwXX0=
+eyJoaXN0b3J5IjpbLTIxNDY0NDgwNSwxMDg5ODU4NjkwXX0=
 -->
